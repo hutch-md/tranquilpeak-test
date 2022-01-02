@@ -1,7 +1,7 @@
-baseURL: https://tranquilpeak-test.netlify.app/
+baseURL: https://example.org/
 languageCode: en-us
 defaultContentLanguage: en-us
-title: Hugo tranquilpeak theme
+title: Michael Hutchinson's Blog
 theme: hugo-tranquilpeak-theme
 disqusShortname: hugo-tranquilpeak-theme
 paginate: 7
@@ -18,24 +18,20 @@ markup:
     ordered: no
     startLevel: 1
 author:
-  bio: Professional data nerd. Amateur golfer. Sharing what I learn as I try to get to scratch.
-  gravatarEmail: michaeldavidhutchinson@gmail.com
-  job: Director, Data Science & Analytics at TuneIn 
+  bio: Professional data nerd. Amateur golfer. Documenting my journey to scratch and sharing what I learn along the way.
+  job: Director, Data Science & Analytics @ TuneIn 
   location: California
   name: Michael Hutchinson
-  picture: https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png
+  picture: https://res.cloudinary.com/hutch-md/image/upload/v1641117396/avatar_sbsvtz.jpg
+  twitter: hutch_golf
 menu:
   links:
     - identifier: github
       name: GitHub
       pre: <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
-      url: https://github.com/kakawait
+      url: https://github.com/hutch-md
       weight: 1
-    - identifier: stackoverflow
-      name: Stack Overflow
-      pre: <i class="sidebar-button-icon fab fa-lg fa-stack-overflow" aria-hidden="true"></i>
-      url: https://stackoverflow.com/users/636472/kakawait
-      weight: 2
+
   main:
     - identifier: home
       name: Home
@@ -83,7 +79,7 @@ params:
         language: en
         pagerDirection: first
         perPage: 10
-  coverImage: images/cover.jpg
+  coverImage: https://res.cloudinary.com/hutch-md/image/upload/v1641120651/Spyglass_-_3_-_v2_-_Blur_cys8ac.jpg
   customJS:
     - async: yes
       crossorigin: anonymous

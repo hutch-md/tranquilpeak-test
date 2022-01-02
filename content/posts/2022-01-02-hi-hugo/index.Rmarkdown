@@ -7,7 +7,3 @@ categories: []
 tags: []
 ---
 
-```{r}
-summary(Orange)
-```
-
